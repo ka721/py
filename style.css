@@ -1,0 +1,29 @@
+.app__main nav #ul-codes {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.app__main textarea {
+    width: 100%;
+}
+
+.app__main .app__input button {
+    height: 40px;
+}
+
+.app__main .content nav {
+    height: 167px;
+}
+
+.app__main .content {
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    .app__main .content nav {
+        height: 800px;
+    }
+}
